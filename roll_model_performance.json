@@ -1,0 +1,41 @@
+{
+    "model_info": {
+        "model_type": "Roll Model",
+        "evaluation_date": "2025-09-05 12:36:52",
+        "test_samples": 30
+    },
+    "regression_metrics": {
+        "MSE": 1.5260616540908813,
+        "RMSE": 1.2353386878967285,
+        "MAE": 0.792260468006134,
+        "R_squared": 0.9912392516237892,
+        "Explained_Variance_Score": 0.9915276765823364
+    },
+    "error_metrics": {
+        "MAPE_percent": 18.48800778388977,
+        "Maximum_Error": 5.296481132507324,
+        "Standard_Deviation_Error": 1.2148313522338867,
+        "Mean_Error_Bias": -0.2241567224264145,
+        "Error_Range_Min": -5.296481132507324,
+        "Error_Range_Max": 1.937146544456482,
+        "CI_95_percent": 2.3810694503784178
+    },
+    "accuracy_metrics": {
+        "Accuracy_Percent": 81.51199181874593,
+        "R2_Classification": "Excellent"
+    },
+    "detailed_statistics": {
+        "actual_values_mean": 0.6433330178260803,
+        "actual_values_std": 13.198222160339355,
+        "predicted_values_mean": 0.8674896955490112,
+        "predicted_values_std": 12.541666984558105,
+        "actual_values_range": [
+            -20.220001220703125,
+            19.78999900817871
+        ],
+        "predicted_values_range": [
+            -18.567216873168945,
+            19.201818466186523
+        ]
+    }
+}
