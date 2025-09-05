@@ -1,0 +1,41 @@
+{
+    "model_info": {
+        "model_type": "Pitch Model",
+        "evaluation_date": "2025-09-05 12:41:27",
+        "test_samples": 30
+    },
+    "regression_metrics": {
+        "MSE": 6.047006607055664,
+        "RMSE": 2.459066152572632,
+        "MAE": 1.8153198957443237,
+        "R_squared": 0.9747695408775013,
+        "Explained_Variance_Score": 0.9753391146659851
+    },
+    "error_metrics": {
+        "MAPE_percent": 31.218230724334717,
+        "Maximum_Error": 6.386238098144531,
+        "Standard_Deviation_Error": 2.431150197982788,
+        "Mean_Error_Bias": -0.36948031187057495,
+        "Error_Range_Min": -6.386238098144531,
+        "Error_Range_Max": 5.39543342590332,
+        "CI_95_percent": 4.765054388046265
+    },
+    "accuracy_metrics": {
+        "Accuracy_Percent": 68.78177007039388,
+        "R2_Classification": "Excellent"
+    },
+    "detailed_statistics": {
+        "actual_values_mean": -0.07766704261302948,
+        "actual_values_std": 15.481308937072754,
+        "predicted_values_mean": 0.2918132543563843,
+        "predicted_values_std": 14.25699520111084,
+        "actual_values_range": [
+            -22.64000129699707,
+            23.98999786376953
+        ],
+        "predicted_values_range": [
+            -21.2149600982666,
+            24.6456298828125
+        ]
+    }
+}
